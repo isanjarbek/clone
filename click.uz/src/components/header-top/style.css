@@ -1,0 +1,87 @@
+.main-header-top {
+  display: flex;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.main-header-list ul {
+  display: flex;
+}
+.main-header-list ul li {
+  list-style: none;
+}
+.main-header-list ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 15px;
+  font-size: 18px;
+  font-weight: 100;
+  transition: 0.5s;
+}
+.cashbackdropdown button{
+  background: linear-gradient(
+    180deg,
+    rgba(73, 180, 207, 1) 0%,
+    rgba(0, 149, 186, 1) 100%
+  );
+  box-shadow: 5px 5px 25px rgb(0 177 227 / 31%);
+  padding: 0 40px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 30px;
+  line-height: 16px;
+  border: none;
+  outline: none;
+}
+.main-header-tab a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.main-header-lang ul{
+    display: flex;
+}
+.main-header-lang ul li {
+    list-style: none;
+}
+.main-header-lang ul li a{
+    color: #000;
+    font-size: 16px;
+    font-weight: 300;
+    transition: 0.5s;
+    text-decoration: none;
+    padding: 0 10px 0 0;
+}
+#searchtop{
+    display: none;
+}
+.searchtopbutton{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    background-image: url("https://click.uz/click/images/home/search.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    z-index: 5;
+    background-color: rgb(54, 53, 53);
+}
+.main-top-burger {
+    width: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-top-burger a img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

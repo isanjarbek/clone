@@ -1,0 +1,36 @@
+.position {
+  position: absolute;
+  top: 0;
+}
+
+.relative {
+  position: relative;
+}
+
+.heart {
+  -webkit-animation: p 0.2s ease-in-out;
+          animation: p 0.2s ease-in-out;
+}
+.heart path {
+  width: 24px;
+  height: 24px;
+  fill: blue;
+}
+
+@-webkit-keyframes p {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes p {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=checkbox.css.map */

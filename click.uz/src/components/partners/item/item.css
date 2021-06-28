@@ -1,0 +1,15 @@
+.items{
+    text-align: center;
+}
+.items h4{
+    font-size: 29px;
+    margin: 0 0 8px;
+}
+.items img{
+    margin:0 0 10px;
+}
+.items p{
+    color: #A8AAC3;
+    font-size: 20px;
+    font-weight: 300;
+}

@@ -1,0 +1,23 @@
+.paper{
+    padding: 0 15px;
+    width: 33.3%;
+}
+.paper-item{
+    background: rgba(9,14,28, 0.78);
+    padding: 20px 40px 60px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 48%);
+}
+.paper-item h4{
+    font-size: 22px;
+    margin: 20px 0 15px;
+    color: #fff;
+}
+.paper-tem p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    opacity: 0.8;
+}

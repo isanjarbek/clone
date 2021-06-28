@@ -1,0 +1,24 @@
+.community{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;    
+}
+.clickme{
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    color: #0d3c6b;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  19px 19px 56px #8b8b8b,
+                 -19px -19px 56px #ffffff;
+}
+.clock{
+    font-size: 30px;
+    color: #0d3c6b;
+}

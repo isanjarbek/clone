@@ -1,0 +1,144 @@
+.header-fixed{
+    position: sticky;
+    top: 0;
+    left:0;
+    background-color: #fff;
+}
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+.header-row {
+  display: flex;
+  justify-content: space-between;
+}
+.line {
+  border-bottom: 1px solid rgba(127, 127, 155, 0.15);
+}
+.header-logo a {
+  margin-right: 36px;
+}
+.header-col-left,
+.header-col-right {
+  padding: 0 18px;
+}
+.header-row li {
+  list-style: none;
+}
+.header-row li a {
+  text-decoration: none;
+  color: #37363c;
+}
+.header-col-left,
+.header-menu nav,
+.header-col-right,
+.header-links ul,
+.headar-col-auoto ul {
+  display: flex;
+  align-items: center;
+}
+.header-menu nav li {
+  padding: 0 12px;
+}
+.header-menu nav li a {
+  padding: 21px 0;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.header-col-right li a {
+  font-size: 14px;
+  font-weight: 550;
+}
+.header-links ul li {
+  padding: 0 10px;
+}
+.distance {
+  margin-right: 8px;
+}
+.header-lang{
+    position: relative;
+    margin-left: 30px;
+}
+.header-lang-items{
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+.header-lang-none{
+    opacity: 0;
+    padding: 42px 30px 18px 45px;
+    position: absolute;
+    top: -13px;
+    left: -13px;
+    border-radius: 12px;
+    background-color: #f4f3f5;
+}
+.header-lang-items:hover .header-lang-none{
+    opacity: 1;
+}
+.header-lang-none li{
+    padding-bottom:6px;
+}
+.center,
+.header-search {
+  display: flex;
+  align-items: center;
+}
+.header-search{
+    cursor: pointer;
+}
+.header-mobile {
+  display: none;
+}
+
+.soon{
+    display: none;
+    position: absolute;
+    padding: 10px 15px;
+    border-radius: 12px;
+    background-color: #37363c;
+    font-size: 14px;
+    color: #fff;
+    white-space: nowrap;
+    z-index: 10;
+}
+.none:hover .soon{
+    display: block; 
+}
+
+.header-mobile a {
+  text-decoration: none;
+  color: #37363c;
+}
+.header-bottom .header-menu nav li a {
+  text-transform: none;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.header-bottom .header-links ul li a {
+  color: #a30041;
+  font-size: 16px;
+}
+@media only screen and (max-width: 991px) {
+  .container {
+    max-width: 720px;
+  }
+  .header-links,
+  .header-lang,
+  .header-menu,
+  .header-bottom{
+    display: none;
+  }
+  .header-row {
+    padding: 16px 0;
+    margin: 0 -12px;
+  }
+  .header-mobile {
+    display: block;
+  }
+}

@@ -1,0 +1,22 @@
+npm init
+npm install express
+npm i nodemon --save-dev - (serverda o'zgarish bo'lganda avtomatik tarzda qaytadan 
+yangilab boradigan paket hisoblandi.)
+npm install uuid
+
+__dirname - papkamizni yo'lini ko'rsatib beradi.
+__filename - biz turgan faylni yo'ligacha bo'lgan yo'lni ko'rsatib beradi. 
+
+path - metodi fayl manzillari bilan ishlashimiz un ushbu metoddan foydalanamiz.
+const path = require('path')
+
+fs - 
+
+os - moduli yordamida butin tizimning foyda usullari, xususiyatlari haqida ma'lumot beradi.
+kompyuterimizdagi barcha ma'lumotlar, operatsion syt. nomi va boshqa har xil narsalarni bilib olishimiz mumkin.
+
+events - (hodisalar g'oyasi), deganda dastrimizda biron-bir narsa ro'y berganligi haqida ishorani tushunishimiz kerak(Namoz vaqtini aytib beruvhchi Applar).
+
+emitter - class ga mansub bo'lgan aniq object. Bu object orqali EventEmitter clasidagi funksiyalrdan foydalanishimiz mumkin.
+
+EventEmitter class hisoblanadi.

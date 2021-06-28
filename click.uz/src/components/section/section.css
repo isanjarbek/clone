@@ -1,0 +1,33 @@
+.section-text a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #00B1E3;
+}
+.textlinks{
+    margin: 35px 20px 35px 0;
+}
+.textlinks > a{
+    border-bottom:1px dashed #00B1E3;
+}
+.text-cards{
+    display: flex;
+    margin-top: 20px;
+}
+.text-card-item{
+    background: #1E1F2E;
+    width: 120px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 3px 5px 12px rgb(0 0 0 / 7%);
+    margin-right: 10px;
+}
+
+.cards-image {
+    position: relative;
+}
+.wrapper .cards-image img{
+    width: 100%;
+}

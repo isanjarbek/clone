@@ -1,0 +1,27 @@
+.evolution {
+    padding:80px 0;
+}
+.evolution-text{
+    margin-bottom: 75px;
+}
+.evolution-text h2{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.evolution p{
+    font-size: 18px;
+}
+.evolution-download h4{
+    font-size: 30px;
+    color: #00B1E3;
+    margin: 0 0 30px;
+}
+.evolution-list > a{
+    display: inline-block;
+    margin-right: 45px;
+    box-shadow: 3px 5px 12px rgb(0 0 0 / 7%);
+}
+.direction{
+    margin: auto 0;
+}

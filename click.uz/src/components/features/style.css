@@ -1,0 +1,22 @@
+.main-fut-title {
+    padding: 0 15px;
+}
+.main-fut-title h2{
+    font-size: 40px;
+    margin: 0 0 30px;
+}
+.mainFuture{
+    padding: 0 0 80px;
+}
+.main-fut-title p{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    color: #A8AAC3;
+}
+.row-animated{
+    margin-right: 15px;
+}
+.row-paper{
+    display: flex;
+}

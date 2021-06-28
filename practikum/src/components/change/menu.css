@@ -1,0 +1,19 @@
+.menu {
+  margin-top: 50px;
+}
+.home {
+  width: 100px;
+  height: 100px;
+}
+.menu-icon {
+  animation: icon 0.8s ease-in-out;
+  transition: ease-in-out 0.8s;
+}
+@keyframes icon {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}

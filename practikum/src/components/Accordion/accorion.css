@@ -1,0 +1,20 @@
+.accordion{
+    max-width: 400px;
+    margin: 30px auto ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.accordion-heading{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(64, 118, 165);
+    padding:10px;
+    cursor: pointer;
+}
+.accoridon-content{
+    background-color: antiquewhite;
+    transition: all 2s ease-in-out;
+}
